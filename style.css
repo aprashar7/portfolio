@@ -347,7 +347,7 @@ html {
 
 .details-container {
   padding: 1.5rem;
-  flex: 5;
+  flex: 1;
   margin-top: 3rem;
   background: white;
   border-radius: 2rem;
