@@ -325,7 +325,7 @@ html {
 } */
 
 
-/* .about-details-container {
+.about-details-container {
   justify-content: center;
   flex-direction: column;
 }
@@ -333,6 +333,7 @@ html {
 .about-containers,
 .about-details-container {
   display: flex;
+  flex-wrap: wrap; /
 }
 
 .about-pic {
@@ -351,51 +352,11 @@ html {
   margin-top: -3rem;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(212, 187, 187) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   width: 476px;
-}  */
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers {
-  display: flex;
-  flex-wrap: wrap; /* Enables wrapping for responsiveness */
-}
-
-.about-pic {
-  border-radius: 2rem;
-}
-
-.arrow {
-  position: absolute;
-  right: -6.2rem;
-  bottom: 5.5rem;
-}
-
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  margin-top: -3rem;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-  width: 100%; /* Changed to percentage */
-  max-width: 476px; /* Retain max width */
-}
-
-/* Example Media Query */
-@media (min-width: 1024px) {
-  /* Adjustments for larger screens */
-  .about-details-container {
-    flex-direction: row; /* Change layout style */
-  }
-}
+} 
 
 
 .details-container-project {
