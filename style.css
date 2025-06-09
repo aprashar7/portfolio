@@ -349,7 +349,7 @@ html {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  margin-top: -3rem;
+  margin-top: 0rem;
   background: white;
   border-radius: 2rem;
   border: rgb(212, 187, 187) 0.1rem solid;
