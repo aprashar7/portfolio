@@ -329,7 +329,13 @@ html {
   justify-content: center;
   flex-direction: column;
 }
-
+.text-container {
+  width: 100%;
+  max-width: 900px; /* Optional: keeps it readable */
+  margin-top: 2rem;
+  text-align: justify;
+  align-self: center; /* Ensures it doesn't float right in flex */
+}
 .about-containers,
 .about-details-container {
   display: flex;
