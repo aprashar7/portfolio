@@ -2,6 +2,20 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
+.details-container {
+  text-align: left; /* Ensures the text starts from the left edge */
+}
+
+.experience-list {
+  list-style-type: disc;
+  padding-left: 1.5rem; /* Proper bullet indentation */
+  margin-top: 10px;
+  line-height: 1.6;
+  text-align: justify; /* Optional: For even edge spacing */
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -286,6 +300,7 @@ html {
 }.project-description {
   word-break: break-word;  /* Breaks long words properly */
 }
+
 .project-description {
   font-size: 1rem;
   line-height: 1.5;
@@ -320,18 +335,31 @@ html {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -6.2rem;
   bottom: 2.5rem;
 }
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  margin-top: 3rem;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  width: 476px;
+}
+.details-container-experience {
+  padding: 1.5rem;
+  flex: 1;
+  margin-top: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 476px;
 }
 
 .section-container {
