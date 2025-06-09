@@ -316,7 +316,13 @@ html {
 }
 
 
-
+.text-container {
+  width: 100%;
+  max-width: 900px; /* Optional: keeps it readable */
+  margin-top: 2rem;
+  text-align: justify;
+  align-self: center; /* Ensures it doesn't float right in flex */
+}
 
 
 .about-details-container {
