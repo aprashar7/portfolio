@@ -380,6 +380,18 @@ html {
     bottom: 2.5rem; 
 }
 
+.details-container-project {
+  padding: 1.5rem;
+  flex: 1;
+  margin-top: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 476px;
+}
+
 .details-container-experience {
   padding: 1.5rem;
   flex: 1;
