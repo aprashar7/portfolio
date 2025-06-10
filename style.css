@@ -319,7 +319,7 @@ html {
 
 
 
-.about-details-container {
+/* .about-details-container {
   justify-content: center;
   flex-direction: column;
 }
@@ -349,7 +349,37 @@ html {
   border-color: rgb(163, 163, 163);
   text-align: center;
   width: 476px;
+} */
+
+.about-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: start; 
 }
+
+.about-containers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    margin: 1rem; /* Adjusted margin for spacing */
+    max-width: 400px; /* Change for responsiveness */
+    background: white;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    right: -6.2rem; 
+    bottom: 2.5rem; 
+}
+
 .details-container-experience {
   padding: 1.5rem;
   flex: 1;
