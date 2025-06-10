@@ -364,7 +364,7 @@ html {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 0.5rem;
     flex: 1;
     margin: 1rem; /* Adjusted margin for spacing */
     max-width: 400px; /* Change for responsiveness */
@@ -376,8 +376,8 @@ html {
 
 .arrow {
     position: absolute;
-    right: -6.2rem; 
-    bottom: 2.5rem; 
+    right: -6.5rem; 
+    bottom: 1rem; 
 }
 
 .details-container-project {
